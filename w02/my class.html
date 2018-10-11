@@ -4,179 +4,213 @@
     <title>我的課表</title>
     <meta charset="utf-8">
     <style>
+        table {
+            border: 1px solid;
+            padding: 5px;
+            font-size: 14px;
+        }
         td {
             text-align: center;
             width: 80px;
             height: 40px;
             word-break: break-all;
         }
+        
+        .name {
+            background-color: #4a2ef0;
+            color: white;
+            font-size: 18px;
+        }
+        
+        .tablename {
+            background-color: #033af4;
+            color: white;
+            font-size: 18px;
+        }
+        
+        .weekday {
+            background-color: #9d19e3;
+            font-size: 18px;
+        }
+        
+        .number {
+            width: 18px;
+            background-color: #fc1933;
+        }
+        
+        .time {
+            background-color: bisque;
+        }
+        
+        .content {
+            background-color: darkseagreen;
+        }
+        
+        .contact {
+            background-color: #12b7f4;
+        }
+        
+        .contactinfo {
+            background-color: #f5ec05;
+            text-align: left;
+            padding-left: 5px;
+        }
     </style>
 </head>
 
 <body>
-    <table border="1">
-    	<tr>
-    	    <td>日期</td>
-    		<td>一</td>
-    		<td>二</td>
-    		<td>三</td>
-    		<td>四</td>
-    		<td>五</td>
-    		<td>六</td>
-    		<td>日</td>
-    	</tr>
-    	<tr>
-    		<td>1</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>2</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>3</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>4</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>5</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>6</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>7</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>8</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>9</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>10</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>11</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	</tr>
-    	<tr>
-    		<td>12</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	<tr>
-            <td>13</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	
-    	</tr>
-    	<tr>
-            <td>14</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	
-        </tr>
+    <table>
         <tr>
-           <td>1</td>
-    		<td>2</td>
-    		<td>3</td>
-    		<td>4</td>
-    		<td>5</td>
-    		<td>6</td>
-    		<td>7</td>
-    		<td></td>
-    	<tr>
-    	    <td>1</td>
-    		<td>2</td>
-    		<td colspan="5">1</td>
-    	</tr>
+            <td rowspan="2" colspan="2" class="name">林泓君</td>
+            <td colspan="6" class="tablename">107年度第1學期課表</td>
+        </tr>
+
+        <tr>
+            <td class="weekday">週一</td>
+            <td class="weekday">週二</td>
+            <td class="weekday">週三</td>
+            <td class="weekday">週四</td>
+            <td class="weekday">週五</td>
+            <td class="weekday">週六</td>
+        </tr>
+
+        
+        <tr>
+            <td class="number">1</td>
+            <td class="time">8:10~9:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content">開源軟體實務<br>E213<br>助教</td>
+        </tr>
+        
+        <tr>
+            <td class="number">2</td>
+            <td class="time">9:10~10:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td rowspan="3" class="content">開源軟體實務<br>E213<br>許志鵬</td>
+     </tr>
+        
+        <tr>
+            <td class="number">3</td>
+            <td class="time">10:10~11:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+        </tr>
+        
+        <tr>
+            <td class="number">4</td>
+            <td class="time">11:10~12:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+        </tr>
+         <tr>
+            <td class="number">5</td>
+            <td class="time">12:10~13:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+        </tr>
+         <tr>
+            <td class="number">6</td>
+            <td class="time">13:10~14:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td rowspan="2" class="content">英文<br>B503<br>卓建宏</td>
+         <tr>
+            <td class="number">7</td>
+            <td class="time">14:10~15:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+        </tr>
+         <tr>
+            <td class="number">8</td>
+            <td class="time">15:10~16:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td rowspan="2" class="content">英文<br>V102<br>助教</td>
+        </tr>
+         <tr>
+            <td class="number">9</td>
+            <td class="time">16:10~17:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+        </tr>
+         <tr>
+            <td class="number">10</td>
+            <td class="time">17:10~18:00</td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+            <td class="content"></td>
+        </tr>
+         <tr>
+            <td class="number">11</td>
+            <td class="time">18:10~19:00</td>
+            <td rowspan="3" class="content">計算機概論 <br>E410<br>鄭建富</td>
+            <td class="content">大學學習<br>E401<br>張世豪</td>
+            <td rowspan="3" class="content">計算機程式語言 <br>E404 <br>徐郁輝</td>
+            <td class="content"></td>
+            <td rowspan="2" class="content">男/女生體育<br>022<br>何松諺</td>
+            <td rowspan="2" class="content">國文<br>B515<br>謝乙德</td>
+        </tr>
+         <tr>
+            <td class="number">12</td>
+            <td class="time">19:10~20:00</td>
+            <td rowspan="3" class="content">靜態網頁設計 <br>E213<br>鍾興臺</td>
+            <td class="content"></td>
+        </tr>
+         <tr>
+            <td class="number">13</td>
+            <td class="time">20:10~21:00</td>
+            <td class="content"></td>
+            <td class="content">校園與社區服務學習<br>021<br>王鴻展</td>
+            <td rowspan="2" class="content">國芳軍事訓練<br>B428<br>林冠帆</td>
+            
+        </tr>
+         <tr>
+            <td class="number">14</td>
+            <td class="time">21:10~22:00</td>
+            <td class="content">計算機概論 <br> E213 <br>助教</td>
+            <td class="content">計算機程式語言<br>E201<br>助教</td>
+            <td class="content"></td>
+            <td class="content">靜態網頁設計<br>E213<br>助教</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="2" colspan="2" class="contact">聯絡資訊</td>
+            <td colspan="6" class="contactinfo">Email: vincent19990328@gmail.com</td>
+        </tr>
+        
+       
     </table>
 </body>
